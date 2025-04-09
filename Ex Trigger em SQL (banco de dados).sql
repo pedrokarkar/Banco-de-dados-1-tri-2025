@@ -58,7 +58,7 @@ END
 INSERT INTO Produtos (NomeProduto, Estoque, Preco) VALUES ('Produto A', 10, 25.50)
 
 INSERT INTO Funcionarios (NomeFuncionario, Funcao, Departamento, CargaHoraria, DataContratacao)
-VALUES (SUSER_SNAME(), 'Gerente de Estoque', 'Logística', 40, GETDATE())
+VALUES (SUSER_SNAME(), 'Gerente de Estoque', 'LogÃ­stica', 40, GETDATE())
 
 UPDATE Produtos SET Estoque = 20 WHERE NomeProduto = 'Produto A'
 
